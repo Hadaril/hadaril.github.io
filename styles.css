@@ -13,11 +13,17 @@ body {
 	line-height: 18.5714px;
 }
 
+h1 {
+	font-family: "Oswald";
+	font-size: 35px;
+	font-style: normal;
+	line-height: 40.7px;
+}
+
 h2 {
 	font-family: "Oswald";
 	font-size: 30px;
 	font-style: normal;
-	font-weight: 700;
 	line-height: 40.7px;
 }
 
