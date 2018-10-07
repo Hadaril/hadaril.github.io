@@ -14,7 +14,7 @@ body {
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald";
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 700;
@@ -22,13 +22,13 @@ h2 {
 }
 
 h3 {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald";
 	line-height: 18px;
 	font-size: 23px;
 }
 
 h4 {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald";
 	line-height: 15px;
 	font-size: 17.5px;
 	color: #725d40;
@@ -37,7 +37,7 @@ h4 {
 }
 
 h4.first {
-	font-family: 'Oswald', sans-serif;
+	font-family: "Oswald";
 	line-height: 15px;
 	font-size: 17.5px;
 	color: #725d40;
@@ -51,6 +51,12 @@ a {
 
 a:visted {
 	color: #625037;
+}
+
+a.h3 {
+	font-family: "Oswald";
+	line-height: 18px;
+	font-size: 23px;
 }
 
 div.list {
