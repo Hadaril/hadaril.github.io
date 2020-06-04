@@ -1,68 +1,101 @@
 body {
-	font-family: "Times New Roman";
+	font-family: "source code pro";
 	margin-left: 22%;
 	padding-left: 1.5%;
-	padding-right: 30%;
-	border-left: 7px solid #C0AB8E;
-	
-	background: #F0EDE5;
-	color: #625037;
-	font-size: 14px;
+	border-left: 7px solid #9195a1;
+	text-align: justify;
+	text-justify: inter-word;
+  	background: #222325;
+	color: #f7f7f7;
+	font-size: 13px;
 	font-style: normal;
 	font-weight: 450;
 	line-height: 18.5714px;
 }
 
+p {	
+	margin-left: 2.5%;
+	margin-right: 40%;
+}
 h1 {
-	font-family: "Oswald";
+	font-family: 'agency fb', monospace;
 	font-size: 35px;
 	font-style: normal;
-	line-height: 40.7px;
+	line-height: 40px;
 }
 
 h2 {
-	font-family: "Oswald";
-	font-size: 30px;
+	font-family: 'agency fb', monospace;
 	font-style: normal;
-	line-height: 40.7px;
+	font-weight: 800px;
+	font-size: 48px;
+	font-style: normal;
+	line-height: 40px;
 }
 
 h3 {
-	font-family: "Oswald";
+	font-family: 'agency fb';
+	font-style: normal;
 	line-height: 18px;
 	font-size: 23px;
+	color: #ffffff;
+	background: #46484e;
+	height: 24px;
+	padding-left: 20px;
+	padding-top: 7px;
+	margin-right: 35%;
 }
 
 h4 {
-	font-family: "Oswald";
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
 	line-height: 15px;
 	font-size: 17.5px;
-	color: #725d40;
+	text-align: left;
+	color: #ffffff;
 	margin-top: 28px;
 	margin-bottom: 0px;
 }
 
 h4.first {
-	font-family: "Oswald";
+	font-family: 'Share Tech Mono';
 	line-height: 15px;
 	font-size: 17.5px;
-	color: #725d40;
+	color: #ffffff;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
+h5 {
+	font-family: 'Share Tech Mono';
+	font-size:17.5px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
 a {
-	color: #a3855c;
+	color: #ffffff;
+	text-decoration-color: #efefef;
 }
 
 a:visted {
-	color: #625037;
+	color: #ffffff;
 }
 
 a.h3 {
-	font-family: "Oswald";
+	font-family: "source code pro";
 	line-height: 18px;
 	font-size: 23px;
+}
+
+ul {
+	margin-top: 5px;
+	margin-bottom: 0px:;
+}
+
+ul.indentedlist {
+	margin-left: 5%;
 }
 
 div.list {
@@ -71,9 +104,30 @@ div.list {
 	padding-left: 3.5%;
 	margin-left: 2.5%;
 	padding-right: 45%;
-	border-left: 5px solid #e3dbce;
-	font-size: 13.25px;
+	border-left: 5px solid #9195a1;
+	font-size: 12px;
 	font-style: normal;
+	font-family: "source code pro";	
 	font-weight: 400;
 	line-height: 18.5714px;
+}
+
+div.nextgenBox {
+	margin-left:2.5%;
+	margin-bottom:0;
+}
+
+.column {
+  float: left;
+  width: 220px;
+}
+.columnFinal {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
