@@ -9,7 +9,7 @@ body {
 	font-style: normal;
 	font-weight: 450;
 	line-height: 18.5714px;
-	margin-left: 22%;
+	margin-left: 400px;
 	padding-left: 1.5%;
 	border-left: 7px solid #9195a1;
 }
@@ -48,7 +48,7 @@ h3 {
 	height: 24px;
 	padding-left: 20px;
 	padding-top: 7px;
-	margin-right: 35%;
+	margin-right: 450px;
 }
 
 h4 {
@@ -96,7 +96,16 @@ a.h3 {
 
 ul {
 	margin-top: 5px;
-	margin-bottom: 0px:;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 34px;
+	border-left: 5px solid #9195a1;
+}
+
+ul.nextgen {
+	padding-left: 20px;
+	border-left: 0px;
 }
 
 ul.indentedlist {
@@ -106,10 +115,8 @@ ul.indentedlist {
 div.list {
 	padding-top: 0.1px;
 	padding-bottom: 5px;
-	padding-left: 3.5%;
+	padding-left: 1%;
 	margin-left: 2.5%;
-	padding-right: 45%;
-	border-left: 5px solid #9195a1;
 	font-size: 12px;
 	font-style: normal;
 	font-family: "source code pro";	
@@ -125,9 +132,11 @@ div.nextgenBox {
 .column {
   float: left;
   width: 220px;
+  padding-right:30px;
 }
-.columnFinal {
-  float: left;
+
+div.PortfolioGallery {
+	margin-left:35px
 }
 
 /* Clear floats after the columns */
