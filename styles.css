@@ -1,8 +1,6 @@
 body {
 	font-family: "source code pro";
-	margin-left: 22%;
-	padding-left: 1.5%;
-	border-left: 7px solid #9195a1;
+
 	text-align: justify;
 	text-justify: inter-word;
   	background: #222325;
@@ -11,6 +9,13 @@ body {
 	font-style: normal;
 	font-weight: 450;
 	line-height: 18.5714px;
+	margin-left: 22%;
+	padding-left: 1.5%;
+	border-left: 7px solid #9195a1;
+}
+
+div.Portfolio {
+	margin-left: 10%;
 }
 
 p {	
@@ -131,3 +136,23 @@ div.nextgenBox {
   display: table;
   clear: both;
 }
+
+div.gallery {
+		  margin: 5px;
+		  border: 1px solid #ccc;
+		  float: left;
+		  width: 180px;
+		}
+
+		div.gallery:hover {
+		  border: 1px solid #777;
+		}
+
+		div.gallery img {
+		  width: 100%;
+		  height: auto;
+		}
+
+		div.desc {
+		  padding: 15px;
+		  text-align: center;
