@@ -19,8 +19,8 @@ div.Portfolio {
 }
 
 p {	
-	margin-left: 2.5%;
-	margin-right: 40%;
+	margin-left: 47px;
+	margin-right: 500px;
 }
 h1 {
 	font-family: 'agency fb', monospace;
@@ -74,9 +74,10 @@ h4.first {
 
 h5 {
 	font-family: 'Share Tech Mono';
-	font-size:17.5px;
+	font-size:16px;
 	font-weight: 400;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
+	margin-top:5px;
 }
 
 a {
@@ -125,13 +126,14 @@ div.list {
 }
 
 div.nextgenBox {
-	margin-left:2.5%;
+	margin-left:0px;
+	padding-left:0px;
 	margin-bottom:0;
 }
 
 .column {
   float: left;
-  width: 300px;
+  padding-left: 4px;
 }
 
 div.PortfolioGallery {
@@ -146,21 +148,114 @@ div.PortfolioGallery {
 }
 
 div.gallery {
-		  margin: 5px;
-		  border: 1px solid #ccc;
-		  float: left;
-		  width: 180px;
-		}
+	  margin: 5px;
+	  border: 1px solid #ccc;
+	  float: left;
+	  width: 180px;
+	}
 
-		div.gallery:hover {
-		  border: 1px solid #777;
-		}
+	div.gallery:hover {
+	  border: 1px solid #777;
+	}
 
-		div.gallery img {
-		  width: 100%;
-		  height: auto;
-		}
+	div.gallery img {
+	  width: 100%;
+	  height: auto;
+	}
 
-		div.desc {
-		  padding: 15px;
-		  text-align: center;
+	div.desc {
+	  padding: 15px;
+	  text-align: center;
+}
+
+div.nextgenBox > div.row > div.column {
+	column-width: 123px;
+	padding-left: 0px;
+
+}
+
+div.nextgenBox > div.row > div.column > p {
+	margin: 0px;
+	padding-left:0px;
+	padding-top:2px;
+
+}
+
+div.nextgenBox > div.row > div.column > ul {
+	margin: 0px;
+	margin-top:5px;
+	padding-top:0px;
+	border-left: 3px solid #9195a1;
+	font-size: 12px;
+	line-height:17px;
+}
+
+div.nextgenBox > div.row > div.column > h5 {
+		background: #46484e;
+		margin-right: 10px;
+		padding-left: 4px;
+	}
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height:625px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
