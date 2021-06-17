@@ -19,7 +19,7 @@ div.Portfolio {
 }
 
 p {	
-	margin-left: 47px;
+	margin-left: 22px;
 	margin-right: 500px;
 }
 h1 {
@@ -128,7 +128,7 @@ div.list {
 div.nextgenBox {
 	margin-left:0px;
 	padding-left:0px;
-	margin-bottom:0;
+	margin-bottom:10px;
 }
 
 .column {
@@ -190,13 +190,30 @@ div.nextgenBox > div.row > div.column > ul {
 	line-height:17px;
 }
 
+div.nextgenBox > div.row > div.column > ul {
+	margin: 0px;
+	margin-top:5px;
+	padding-top:0px;
+	border-left: 3px solid #9195a1;
+	font-size: 12px;
+	line-height:17px;
+	margin-bottom:5px;
+}
+
+div.nextgenBox > div.row > div.column > ul > li > p {
+	font-size: 12px;
+	line-height:17px;
+	margin:0px;
+	margin-left:0px;
+	text-decoration: underline;
+}
+
+
 div.nextgenBox > div.row > div.column > h5 {
 		background: #46484e;
 		margin-right: 10px;
 		padding-left: 4px;
 	}
-
-
 
 
 {
