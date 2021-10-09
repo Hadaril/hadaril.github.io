@@ -9,7 +9,7 @@ body {
 	font-style: normal;
 	font-weight: 450;
 	line-height: 18.5714px;
-	margin-left: 400px;
+	margin-left: 350px;
 	padding-left: 1.5%;
 	border-left: 7px solid #9195a1;
 }
@@ -20,7 +20,7 @@ div.Portfolio {
 
 p {	
 	margin-left: 22px;
-	margin-right: 500px;
+	margin-right: 300px;
 }
 h1 {
 	font-family: 'agency fb', monospace;
@@ -36,19 +36,21 @@ h2 {
 	font-size: 48px;
 	font-style: normal;
 	line-height: 40px;
+	margin-right: 301px;
 }
 
 h3 {
 	font-family: 'agency fb';
 	font-style: normal;
 	line-height: 18px;
-	font-size: 23px;
+	font-size: 30px;
 	color: #ffffff;
 	background: #46484e;
 	height: 24px;
 	padding-left: 20px;
-	padding-top: 7px;
-	margin-right: 450px;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	margin-right: 301px;
 }
 
 h4 {
@@ -137,7 +139,7 @@ div.nextgenBox {
 }
 
 div.PortfolioGallery {
-	margin-left:35px
+	margin-left:20px
 }
 
 /* Clear floats after the columns */
