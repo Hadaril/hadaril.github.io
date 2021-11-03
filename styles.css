@@ -278,3 +278,27 @@ div.nextgenBox > div.row > div.column > h5 {
   padding: 2px 16px;
   color: white;
 }
+
+
+@media screen and (max-width: 1440px) {
+	body {
+		margin-left: 50px;
+	}
+	p {
+		margin-right: 145px;
+	}
+	h3 {
+		margin-right: 145px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	body {
+		margin-left: 15px;
+	}
+	p {
+		margin-right: 22px;
+	}
+	h3 {
+		margin-right: 22px;
+}
