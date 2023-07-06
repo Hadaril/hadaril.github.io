@@ -310,4 +310,9 @@ div.nextgenBox > div.row > div.column > h5 {
 	}
 	h3 {
 		margin-right: 22px;
+	}
+	.sidenav {
+		display: none;
+	}
+	.navbar { font-size: 18px; }
 }

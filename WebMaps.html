@@ -37,12 +37,14 @@ body {
 }
 
 .main {
-		margin-top: 30px; /* Same width as the sidebar + left position in px */
+	margin-top: 30px; /* Same width as the sidebar + left position in px */
 }
 
-@media screen and (max-height: 450px) {
-		.navbar  {  display: none; }
-}
+@media screen and (max-width: 1280px) {
+		body {margin-left: 0px; padding-left: 15px;}
+		.main { margin-left: 15px; }
+		.navbar { font-size: 18px }
+	}
 
 .MainPageHeader {
 	padding-top:  60px;

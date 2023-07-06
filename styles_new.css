@@ -8,7 +8,7 @@ body {
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 450;
-	line-height: 12px;
+	line-height: 18px;
 	padding-left: 5%;
 	padding-left: 5%;
 	margin-right: 5%;
@@ -40,8 +40,8 @@ h2.PageSubtitle{
 
 .IntroText {
 	padding-top:  25px;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 20%;
+	padding-right: 20%;
 	text-align:  center;
 }
 
@@ -60,4 +60,23 @@ h3 {
 	padding-top: 10px;
 	padding-bottom: 6px;
 	margin-right: 301px;
+}
+
+
+@media screen and (max-width: 1280px) {
+	body {
+		margin-left: 15px;
+	}
+	p {
+		margin-right: 22px;
+	}
+	h3 {
+		margin-right: 22px;
+	}
+	.sidenav { display: none; }
+	.navbar { font-size: 18px; }
+	.main {
+		margin-left: 15px;
+		padding-left: 1.5%;
+	}
 }
