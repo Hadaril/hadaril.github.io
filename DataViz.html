@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Joel Conti - Cartographic Projects</title>
+
+	<title>Cartography Portfolio - Joel Conti</title>
 	<link href="styles.css" rel="stylesheet" >
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
 <style>
 		body {
 	   		 font-family: "source sans pro";
 	   		 line-height: 18.5px;
 			   }
 	.navbar {
-			  overflow: hidden;
-			  background-color: #333;
-			  position: fixed; /* Set the navbar to fixed position */
-			  top: 0; /* Position the navbar at the top of the page */
-			  width: 100%; /* Full width */
-			}
-
-			/* Links inside the navbar */
-	.navbar a {
-			  float: left;
-			  display: block;
-			  color: #f2f2f2;
-			  text-align: center;
-			  padding: 14px 16px;
-			  text-decoration: none;
-			  line-height: 18.5px;
-			}
-
-		.navbar a:hover {
-			  background: #ddd;
-			  color: black;
+		  overflow: hidden;
+		  background-color: #333;
+		  position: fixed; /* Set the navbar to fixed position */
+		  top: 0; /* Position the navbar at the top of the page */
+		  width: 100%; /* Full width */
+		  		  line-height: 18.5px;
+		  font-size: 16px;
+		  font-weight: 450;
+		  justify-content: center;
+		  padding-left: 5%;
+		  
+		
 		}
+
+		/* Links inside the navbar */
+	.navbar a {
+		  float: left;
+		  /* display: block; */
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 10px;
+		  text-decoration: none;
+		  line-height: 18.5px;
+		  font-size: 16px;
+		  font-weight: 450;
+
+		}
+
+
+		/* Change background on mouse-over */
+	.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		  border-radius: 5px;
+	}
 
 	.main {
 			  
@@ -49,10 +67,10 @@
 		font-style: normal;
 		font-weight: 450;
 		line-height: 18.5714px;
-		margin-top: 70px;
+		margin-top: 100px;
 		margin-left: 350px;
 		padding-left: 1.5%;
-		border-left: 7px solid #9195a1;
+		/*border-left: 7px solid #9195a1;*/
 
 	}
 
@@ -102,13 +120,18 @@
 </head>
 <body>
 
- <div class="navbar">
-  <a href="https://hadaril.github.io/">Home Page</a>
-  <a href="https://hadaril.github.io/about">About</a>
-  <a href="https://hadaril.github.io/StaticMaps">Main Portfolio</a>
-  <a href="https://hadaril.github.io/DataViz">Data Visualizations</a>
-  <a href="https://hadaril.github.io/WebMaps">Web Maps</a>
-  <a href="https://hadaril.github.io/WorldaIndex">WorldaIndex</a>
+<div class="navbar">
+ 	<div class="row">
+	<div class="column">
+		<a href="https://hadaril.github.io/" style="background-color: #403e3e; margin: 5px; border-radius: 10px;"><b>Home Page</b></a></div>
+	<div class="column" style="background-color: #403e3e; margin: 5px; border-radius: 10px; margin-left: 30px">
+  		<a href="https://hadaril.github.io/portfolio" style="float: left">Static Maps</a>
+  		<a href="https://hadaril.github.io/DataViz" style="float: left">Data Visualizations</a>
+  		<a href="https://hadaril.github.io/WebMaps" style="float: left">Web Maps</a>
+	  	<a href="https://hadaril.github.io/WorldaIndex" style="float: left">WorldA Index</a></div>
+  	<div class="column" style="background-color: #403e3e; margin: 5px; border-radius: 10px; margin-left: 30px">
+  		<a href="https://hadaril.github.io/Contact"><b>Contact & Commissions</b></a></div>
+</div>
 </div>
 
 

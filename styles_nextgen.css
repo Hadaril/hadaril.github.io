@@ -3,14 +3,13 @@ body {
 
 	text-align: justify;
 	text-justify: inter-word;
-  background: #222325;
+  	background: #222325;
 	color: #f7f7f7;
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 450;
 	line-height: 18.5714px;
-	margin-right: 12%;
-	margin-left: 0px;
+	margin-right: 5%;
 }
 
 div.Portfolio {
@@ -18,7 +17,6 @@ div.Portfolio {
 }
 
 p {	
-	font-family:  'crimson pro';
 	margin-left: 22px;
 	margin-right: 300px;
 }
@@ -31,14 +29,14 @@ p.ImageCaption {
 	font-style: italic;
 }
 h1 {
-	font-family: 'crimson pro', monospace;
+	font-family: 'agency fb', monospace;
 	line-height: 40px;
 	font-size: 35px;
 	font-style: normal;
 }
 
 h2 {
-	font-family: 'crimson pro', monospace;
+	font-family: 'agency fb', monospace;
 	font-style: normal;
 	font-weight: 800px;
 	font-size: 48px;
@@ -48,7 +46,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'crimson pro';
+	font-family: 'agency fb';
 	font-style: normal;
 	line-height: 18px;
 	font-size: 30px;
@@ -56,11 +54,9 @@ h3 {
 	background: #46484e;
 	height: 24px;
 	padding-left: 20px;
-	padding-right: 0px;
 	padding-top: 10px;
 	padding-bottom: 6px;
-	margin-right: 0px;
-	margin-top: 0px;
+	margin-right: 301px;
 }
 
 h4 {
@@ -291,14 +287,16 @@ div.nextgenBox > div.row > div.column > h5 {
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1440px) {
 	body {
-		margin-right: 9%;
+		margin-left: 50px;
 	}
 	p {
 		margin-right: 145px;
 	}
-
+	h3 {
+		margin-right: 145px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
@@ -306,9 +304,11 @@ div.nextgenBox > div.row > div.column > h5 {
 		margin-left: 15px;
 	}
 	p {
-		margin-right: 10px;
+		margin-right: 22px;
 	}
-
+	h3 {
+		margin-right: 22px;
+	}
 	.sidenav {
 		display: none;
 	}
