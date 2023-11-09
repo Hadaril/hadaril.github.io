@@ -314,3 +314,11 @@ div.nextgenBox > div.row > div.column > h5 {
 	}
 	.navbar { font-size: 18px; }
 }
+
+#item {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	padding-bottom: 20px;
+}

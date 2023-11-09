@@ -60,6 +60,11 @@ h3 {
 	margin-right: 301px;
 }
 
+a {
+	line-height: 0px;
+	color: #ffffff;
+	text-decoration-color: #efefef;
+}
 
 @media screen and (max-width: 1280px) {
 	body {
